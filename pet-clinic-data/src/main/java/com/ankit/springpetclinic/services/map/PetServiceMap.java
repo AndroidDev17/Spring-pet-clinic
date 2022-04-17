@@ -2,12 +2,15 @@ package com.ankit.springpetclinic.services.map;
 
 import com.ankit.springpetclinic.model.Pet;
 import com.ankit.springpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 /**
  * created by Ankit on 16 of Apr, 2022
  */
+
+@Service
 public class PetServiceMap extends AbstractMapService <Pet,Long> implements PetService {
 
     @Override

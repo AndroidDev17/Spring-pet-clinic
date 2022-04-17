@@ -2,6 +2,7 @@ package com.ankit.springpetclinic.services.map;
 
 import com.ankit.springpetclinic.model.Owner;
 import com.ankit.springpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Set;
@@ -10,6 +11,8 @@ import java.util.stream.Collectors;
 /**
  * created by Ankit on 16 of Apr, 2022
  */
+
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     @Override
